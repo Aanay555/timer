@@ -1,8 +1,7 @@
 #! /usr/bin/env node
-
 import inquirer from "inquirer";
 import chalk from "chalk";
-import { differenceInSeconds } from "date-fns";
+import {differenceInSeconds } from "date-fns";
 
  const response = await inquirer.prompt(
     {

@@ -1,13 +1,14 @@
 {
-  "name": "pro-cli-countdown-timer-project",
+  "name": "pro-cli-giaic-countdown_timer",
   "version": "2.0.2",
-  "description": "",
+  "description": "\"# 10th project\"",
   "main": "index.js",
   "type": "module",
   "bin": "timer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "uzma",
   "license": "ISC",
   "devDependencies": {
@@ -15,7 +16,10 @@
     "@types/node": "^20.12.11"
   },
   "dependencies": {
+    "chalk": "^5.3.0",
+    "date": "^2.0.5",
     "date-fns": "^3.6.0",
+    "fns": "^1.0.0",
     "inquirer": "^9.2.20"
   }
 }
